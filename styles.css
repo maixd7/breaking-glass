@@ -51,6 +51,13 @@ img
     margin: 0 auto;
 }
 
+.caption
+{
+    font-style: italic;
+    font-size: small;
+    text-align: justify;
+}
+
 @media (max-width: 600px) {
     p 
     {
