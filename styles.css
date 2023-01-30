@@ -1,0 +1,77 @@
+body
+{
+    background-color: rgb(24, 20, 20);
+}
+h1 
+{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    
+}
+h2
+{
+    color : white;
+    text-align: center;
+    font-weight: 700;
+    
+}
+h3
+{
+    color : white;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    font-weight: 700;
+}
+p
+{
+    margin: 1vh 25%;
+    color: white;
+    font-weight: 400;
+    min-width: fit-content;
+}
+img
+{
+    margin-left: 100px;
+    margin-right: 100px;    
+}
+
+.image1 {
+    width: 25vw;
+    display: block;
+    margin: 10px auto;
+}
+
+.video
+{
+    width: 30vw;
+    height: 20vw;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    p 
+    {
+        margin: 5% 5%;
+    }
+    h3
+    {
+        margin: 5% 5%;
+    }
+    .video
+    {
+        width: 320px;
+        height: 215px;
+        display: block;
+        margin: 0 auto;
+    }
+    .image1 
+    {
+        width: 320px;
+        height: 215px;
+        display: block;
+        margin: 0 auto;
+    }
+}
