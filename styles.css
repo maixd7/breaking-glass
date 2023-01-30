@@ -76,9 +76,8 @@ img
     }
     .image1 
     {
-        width: 320px;
-        height: 215px;
+        width: 50vw;
         display: block;
-        margin: 0 auto;
+        margin: 5% auto;
     }
 }
